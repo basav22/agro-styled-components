@@ -9,6 +9,7 @@ export const AgroLabel = styled.label`
     const agSize = props.agSize || "default";
     return props.theme.body.fonts[agSize];
   }};
+  
 
   text-align: ${props => props.align || "left"};
   display: ${props => (props.block ? "block" : "initial")};

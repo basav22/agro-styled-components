@@ -50,6 +50,7 @@ const theme = applyTheme();
   It is special button with no-margin/padding to use icon as a button
   ### AgroBtnLink
   It is button displayed as a link which is underlined
+  
   |Props | Prop Value | Desc|
   |---|---|---|
   |agType| "primary\|default"| Primary/ Default Button|
@@ -58,6 +59,7 @@ const theme = applyTheme();
 ## AgroLabel
 
 * Allowed Props-
+
   |Props | Prop Value | Desc|
   |---|---|---|
   |agWeight| "bold \| normal"| font-weight in css| 
@@ -70,6 +72,7 @@ Same as AgroLabel except they are bold by default
 
 ## AgroInputText
 * Allowed Props-
+
   |Props | Prop Value | Desc|
   |---|---|---|
   |error| true/false | invalid input(red bg)|
@@ -77,6 +80,7 @@ Same as AgroLabel except they are bold by default
 * Varients 
   ### AgroInputTextArea
 * Allowed Props-
+
   |Props | Prop Value | Desc|
   |---|---|---|
   |error| true/false | invalid input(red bg)|

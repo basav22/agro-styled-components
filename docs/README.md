@@ -52,18 +52,19 @@ const theme = applyTheme();
   It is button displayed as a link which is underlined
   |Props | Prop Value | Desc|
   |---|---|---|
-  |agType| "primary\|default"| Primary/ Default Button
-  |decorated| "true\| false" | underlined or not
+  |agType| "primary\|default"| Primary/ Default Button|
+  |decorated| "true\| false" | underlined or not|
 
 ## AgroLabel
 
 * Allowed Props-
   |Props | Prop Value | Desc|
   |---|---|---|
-  |agWeight| "bold \| normal"| font-weight in css 
-  |agStyle| "italic \| normal"| font-style in css
-  |agType | "primary \| inherit"| color/background in css
-  |agSize| "xs \| sm \| md \| lg \| xl \|xxl"|  font-size in css
+  |agWeight| "bold \| normal"| font-weight in css| 
+  |agStyle| "italic \| normal"| font-style in css|
+  |agType | "primary \| inherit"| color/background in css|
+  |agSize| "xs \| sm \| md \| lg \| xl \|xxl"|  font-size in css|
+
 ### AgroHeading
 Same as AgroLabel except they are bold by default
 
@@ -71,14 +72,14 @@ Same as AgroLabel except they are bold by default
 * Allowed Props-
 |Props | Prop Value | Desc|
   |---|---|---|
-  |error| true/false | invalid input(red bg)
-  |hidden| true/false | show/hide 
+  |error| true/false | invalid input(red bg)|
+  |hidden| true/false | show/hide |
 * Varients 
   ### AgroInputTextArea
 * Allowed Props-
 |Props | Prop Value | Desc|
   |---|---|---|
-  |error| true/false | invalid input(red bg)
+  |error| true/false | invalid input(red bg)|
 
   ### AgroSelectInput
   * Allowed Props-

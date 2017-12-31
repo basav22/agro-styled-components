@@ -53,7 +53,7 @@ const theme = applyTheme();
   |Props | Prop Value | Desc|
   |---|---|---|
   |agType| "primary\|default"| Primary/ Default Button|
-  |decorated| "true\| false" | underlined or not
+  |decorated| "true\| false" | underlined or not|
 
 ## AgroLabel
 
@@ -63,30 +63,30 @@ const theme = applyTheme();
   |agWeight| "bold \| normal"| font-weight in css| 
   |agStyle| "italic \| normal"| font-style in css|
   |agType | "primary \| inherit"| color/background in css|
-  |agSize| "xs \| sm \| md \| lg \| xl \|xxl"|  font-size in css
+  |agSize| "xs \| sm \| md \| lg \| xl \|xxl"|  font-size in css|
 
 ### AgroHeading
 Same as AgroLabel except they are bold by default
 
 ## AgroInputText
 * Allowed Props-
-|Props | Prop Value | Desc|
+  |Props | Prop Value | Desc|
   |---|---|---|
   |error| true/false | invalid input(red bg)|
-  |hidden| true/false | show/hide 
+  |hidden| true/false | show/hide |
 * Varients 
   ### AgroInputTextArea
 * Allowed Props-
-|Props | Prop Value | Desc|
+  |Props | Prop Value | Desc|
   |---|---|---|
-  |error| true/false | invalid input(red bg)
+  |error| true/false | invalid input(red bg)|
 
   ### AgroSelectInput
   * Allowed Props-
   
   |Props | Prop Value | Desc|
   |---|---|---|
-  |inherit| true/false | inherits wrapper Bgcolor
+  |inherit| true/false | inherits wrapper Bgcolor|
 
   ### AgroCheckBox
   Custom checkbox which has primary color for selected things and default color for unselected.
@@ -100,7 +100,7 @@ Same as AgroLabel except they are bold by default
   
   |Props | Prop Value | Desc|
   |---|---|---|
-  |align| left/right | text-align in css
+  |align| left/right | text-align in css|
 
 ## AgroList
   Custom ```ul``` element with no default styling
@@ -113,7 +113,7 @@ Same as AgroLabel except they are bold by default
   
   |Props | Prop Value | Desc|
   |---|---|---|
-  |bold|true/false| bold text or not
+  |bold|true/false| bold text or not|
 
   ### AgroTableItem
   Custom ```td``` element with ```display: flex```
@@ -121,7 +121,7 @@ Same as AgroLabel except they are bold by default
   
   |Props | Prop Value | Desc|
   |---|---|---|
-  |agSize|1/2/3| flex value in css
+  |agSize|1/2/3| flex value in css|
 
 
 

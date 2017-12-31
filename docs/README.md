@@ -53,7 +53,7 @@ const theme = applyTheme();
   |Props | Prop Value | Desc|
   |---|---|---|
   |agType| "primary\|default"| Primary/ Default Button|
-  |decorated| "true\| false" | underlined or not|
+  |decorated| "true\| false" | underlined or not
 
 ## AgroLabel
 
@@ -63,7 +63,7 @@ const theme = applyTheme();
   |agWeight| "bold \| normal"| font-weight in css| 
   |agStyle| "italic \| normal"| font-style in css|
   |agType | "primary \| inherit"| color/background in css|
-  |agSize| "xs \| sm \| md \| lg \| xl \|xxl"|  font-size in css|
+  |agSize| "xs \| sm \| md \| lg \| xl \|xxl"|  font-size in css
 
 ### AgroHeading
 Same as AgroLabel except they are bold by default
@@ -73,13 +73,13 @@ Same as AgroLabel except they are bold by default
 |Props | Prop Value | Desc|
   |---|---|---|
   |error| true/false | invalid input(red bg)|
-  |hidden| true/false | show/hide |
+  |hidden| true/false | show/hide 
 * Varients 
   ### AgroInputTextArea
 * Allowed Props-
 |Props | Prop Value | Desc|
   |---|---|---|
-  |error| true/false | invalid input(red bg)|
+  |error| true/false | invalid input(red bg)
 
   ### AgroSelectInput
   * Allowed Props-

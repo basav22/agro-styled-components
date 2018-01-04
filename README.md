@@ -7,6 +7,10 @@ Agrostar styled components
 <h4>Bootstrap code</h4>
 <p>Add this code while bootstraping you application(app.js)</p>
 
+[![Edit 5xv9q9z7y4](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/5xv9q9z7y4)
+
+
+
 ```javascript
 import {applyTheme} from "agrostar-styled-components";
 

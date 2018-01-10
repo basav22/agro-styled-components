@@ -19,7 +19,21 @@ export function applyTheme(configString = {}) {
     "theme.fonts.size.md": "1.14em",
     "theme.fonts.size.lg": "1.28em",
     "theme.fonts.size.xl": "1.7em",
-    "theme.fonts.size.xll": "2em"
+    "theme.fonts.size.xll": "2em", // Labels
+    "theme.label.primary.color": COLORS.primary,
+    "theme.label.warning.color": "#FFD05B",
+    "theme.label.error.color": COLORS.danger,
+    "theme.label.info.color": "#ccc",
+    "theme.label.default.color": "#000", // Buttons
+    "theme.button.default.color": "#000",
+    "theme.button.default.bgColor": "#666",
+    "theme.button.default.bgHover": "#999",
+    "theme.button.primary.color": "#FFF",
+    "theme.button.primary.bgColor": COLORS.primary,
+    "theme.button.primary.bgHover": "#2FB43F",
+    "theme.button.error.color": COLORS.danger,
+    "theme.button.error.bgColor": COLORS.dangerBg,
+    "theme.button.error.bgHover": COLORS.dangerBg
   };
 
   STYLISH_CONFIG = Object.assign({}, STYLISH_CONFIG, configString);
@@ -41,27 +55,35 @@ export const getTheme = config => ({
   },
   colors: COLORS,
   buttons: {
-    default: { btnBg: "#666", btnColor: "#000", btnBgHover: "#999" },
+    default: { 
+      btnBg: config["theme.button.default.bgColor"],
+      btnColor: config["theme.button.primary.color"],
+      btnBgHover: config["theme.button.primary.bgHover"],
+    },
     primary: {
-      btnBg: COLORS.primary,
-      btnColor: "#FFF",
-      btnBgHover: "#2FB43F",
+      btnBg: config["theme.button.primary.bgColor"],
+      btnColor: config["theme.button.primary.color"],
+      btnBgHover: config["theme.button.primary.bgHover"],
       btnDisabled: COLORS.primaryDisabled
     },
-    success: { btnBg: COLORS.primary, btnColor: "#FFF", btnBgHover: "#2FB43F" },
+    success: { 
+      btnBg: config["theme.button.primary.bgColor"],
+      btnColor: config["theme.button.primary.color"],
+      btnBgHover: config["theme.button.primary.bgHover"],
+    },
     error: {
-      btnBg: COLORS.danger,
-      btnColor: COLORS.dangerBg,
-      btnBgHover: COLORS.dangerBg
+      btnBg: config["theme.button.error.bgColor"],
+      btnColor: config["theme.button.error.color"],
+      btnBgHover: config["theme.button.error.bgHover"],
     }
   },
   label: {
-    default: { color: "#000000" },
-    error: { color: COLORS.danger },
-    warning: { color: "#FFD05B" },
-    info: { color: "#666666" },
+    default: { color: config["theme.label.default.color"] },
+    error: { color: config["theme.label.error.color"] },
+    warning: { color: config["theme.label.warning.color"] },
+    info: { color: config["theme.label.info.color"] },
     fainted: { color: COLORS.faded },
-    primary: { color: COLORS.primary },
+    primary: { color: config["theme.label.primary.color"] },
     update: { color: "#007ec1" }
   },
   input: {

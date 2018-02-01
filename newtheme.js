@@ -57,8 +57,8 @@ export const getTheme = config => ({
   buttons: {
     default: { 
       btnBg: config["theme.button.default.bgColor"],
-      btnColor: config["theme.button.primary.color"],
-      btnBgHover: config["theme.button.primary.bgHover"],
+      btnColor: config["theme.button.default.color"],
+      btnBgHover: config["theme.button.default.bgHover"],
     },
     primary: {
       btnBg: config["theme.button.primary.bgColor"],

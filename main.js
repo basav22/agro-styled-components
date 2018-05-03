@@ -20,6 +20,7 @@ import {
   AgroBtnCheckbox
 } from "./buttons";
 
+const TableItem = AgroTableItem;
 
 export {
   AgroLabel,

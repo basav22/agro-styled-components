@@ -11,7 +11,7 @@ import {
 
 import AgroPanel from "./panels";
 import AgroList from "./lists";
-import { AgroTable, AgroTableRow, AgroTableItem } from "./tables";
+import { AgroTable, AgroTableRow, TableItem as AgroTableItem } from "./tables";
 import { applyTheme } from "./newtheme";
 import {
   AgroIconBtn,

@@ -1,7 +1,7 @@
 {
   "name": "agro-styled-components",
   "displayName": "agrostar-styled-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Agrostar styled components",
   "main": "build/agrostyled.es.min.js",
   "module": "build/agrostyled.es.min.js",

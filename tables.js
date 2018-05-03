@@ -23,8 +23,8 @@ function addStickyStyle(sticking) {
   }
   return css`
       position: fixed;
-      top: 120px;
-      width: 93%;
+      top: 0;
+      width: 100%;
   `;
 }
 

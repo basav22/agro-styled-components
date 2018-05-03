@@ -40,5 +40,6 @@ export {
   AgroTable,
   AgroTableRow,
   AgroTableItem,
+  TableItem,
   applyTheme,
 };
